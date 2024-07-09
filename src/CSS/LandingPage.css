@@ -1,0 +1,186 @@
+.landingPage{
+    height:100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: url('../images/Bg-image.jpg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+.landingPage .background{
+    width: 430px;
+    height: 520px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+}
+.landingPage .background .shape{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    border-radius: 50%;
+}
+.landingPage .shape:first-child{
+    background: linear-gradient(
+        #1845ad,
+        #23a2f6
+    );
+    left: -80px;
+    top: -80px;
+}
+.landingPage .shape:last-child{
+    background: linear-gradient(
+        to right,
+        #ff512f,
+        #f09819
+    );
+    right: -30px;
+    bottom: -80px;
+}
+.landingPage form{
+    height: 520px;
+    width: 400px;
+    background-color: rgba(255,255,255,0.13);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 50px 35px;
+}
+.landingPage form *{
+    font-family: 'Poppins',sans-serif;
+    color: #000000;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+.landingPage form h3{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+}
+
+.landingPage label{
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.landingPage input{
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255,255,255,0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+.landingPage ::placeholder{
+    color: #ea6b6b;
+}
+.landingPage form .main-btn, .main-btn{
+    margin-top: 50px;
+    width: 100%;
+    background-color: #ffffff;
+    color: #080710;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.landingPage  .btn-switch{
+    height: 8vh;
+    width: 15vw;
+    border: 1px solid black !important;
+    border-radius: 15px;
+    margin-top: 30px;
+    /* position: relative;
+    top: 200px;
+    left: 50%; */
+
+}
+
+.landingPage  .btn-switch button{
+  height: 100%;
+  width: 50%;
+  border-radius: 15px;
+  border: none;
+  transition: all 0.5s ;
+  font-size: 18px;
+  
+  
+
+}
+.landingPage  .user-type{
+    
+   position: relative;  
+   top:30%;
+   left: 10%;
+   height: 300px;
+   width: 300px;
+   position: absolute;
+   border-radius: 50%;
+   background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   flex-direction: column;
+   box-shadow: 1px 1px 15px 1px black;
+   transition: all 0.3s ease-out;
+  
+  }
+  .landingPage  .user-type:hover{
+    
+  transform: scale(1.08);
+   
+   }
+
+.landingPage  .btn-switch  .admin-btn{
+   margin-left: 0%;
+  }
+
+  .landingPage  .btn-switch  .login-btn{
+    margin-left: 50%;
+   }
+ 
+
+
+
+/* .social{
+  margin-top: 30px;
+  display: flex;
+}
+.social div{
+  background: red;
+  width: 150px;
+  border-radius: 3px;
+  padding: 5px 10px 10px 5px;
+  background-color: rgba(255,255,255,0.27);
+  color: #eaf0fb;
+  text-align: center;
+}
+.social div:hover{
+  background-color: rgba(255,255,255,0.47);
+}
+.social .fb{
+  margin-left: 25px;
+}
+.social i{
+  margin-right: 4px;
+} */
