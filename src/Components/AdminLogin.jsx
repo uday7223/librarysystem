@@ -22,7 +22,7 @@ const AdminLogin = () => {
         let err = `border:solid 1px red; background-color:red`
         if(dataEmail === email.value && dataPass === pass.value){
           navigate('/adminportal')
-          console.log("hello");
+          // console.log("hello");
         }
         else {
           email.style.cssText = err;
@@ -38,8 +38,6 @@ const AdminLogin = () => {
        <form onSubmit={handleLogin}>
                             
                             {/* <h3>{bool ? 'Admin Login' : 'User Login'}</h3> */}
-                            
-
                             <label for="username">Username</label>
                             <input type="text" placeholder="Email or Phone" id="username" ref={adminEmail} />
 
