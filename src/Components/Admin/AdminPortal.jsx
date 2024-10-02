@@ -20,9 +20,6 @@ const AdminPortal = () => {
         <Route element={<AddBooks/>} path='/addBooks'/ >
         <Route element={<AddUsers/>} path='/addUsers'/ >
         <Route element={<Users/>} path='/users'/ >
-
-
-
     </Routes>
  
  </>

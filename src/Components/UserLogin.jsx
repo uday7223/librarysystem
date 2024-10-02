@@ -87,7 +87,8 @@ let handleUserLogin =(e)=>{
 
   let err = `border:solid 1px red; background-color:red`
   if(dataEmail === email.value && dataPass === pass.value){
-    navigate('/userportal')
+    localStorage.setItem("userRole", 'user');
+    navigate('/userportal/*')
     // console.log("hello");
   }
   else {

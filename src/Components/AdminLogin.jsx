@@ -21,6 +21,8 @@ const AdminLogin = () => {
 
         let err = `border:solid 1px red; background-color:red`
         if(dataEmail === email.value && dataPass === pass.value){
+          localStorage.setItem("userRole", 'admin');
+
           navigate('/adminportal')
           // console.log("hello");
         }
