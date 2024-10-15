@@ -6,6 +6,7 @@ import Books from '../Books'
 import ReadBooks from '../ReadBooks'
 
 const UserPortal = () => {
+
   return (
     <>
     <NavBar/>
@@ -25,6 +26,7 @@ const UserPortal = () => {
 
 
   )
+  
 }
 
 export default UserPortal
